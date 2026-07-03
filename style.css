@@ -1,0 +1,162 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Dark Theme Variables */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Navigation layout using basic Flexbox */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #4da6ff;
+}
+
+/* Common Section Styles */
+section, header {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-bottom: 2px solid #4da6ff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #aaaaaa;
+}
+
+/* Buttons */
+.btn {
+    background-color: #4da6ff;
+    color: #121212;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #3388dd;
+}
+
+/* Skills List */
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-list li {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+/* Project Cards */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    border: 1px solid #333;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    color: #4da6ff;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 10px;
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hidden class for JavaScript to toggle */
+.hidden {
+    display: none;
+}
+
+#form-message {
+    margin-top: 20px;
+    color: #4da6ff;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0a0a;
+    margin-top: 40px;
+}

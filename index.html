@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Kadam - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Simple Navigation -->
+    <nav>
+        <h2>Deep Kadam</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Hi, I'm Deep Kadam</h1>
+        <p>B.Tech IT Student | Aspiring Web Developer</p>
+        <a href="#projects" class="btn">See My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a first-year Information Technology student at Walchand College of Engineering. 
+            I love learning how to build things for the web using HTML, CSS, and JavaScript. 
+            When I'm away from my keyboard, you can usually find me playing state-level cricket or listening to hip hop. 
+            I believe the discipline I've learned on the pitch translates directly into writing good code.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Student Result Management System</h3>
+                <p>A C++ program that tracks and calculates student grades.</p>
+            </div>
+            <div class="project-card">
+                <h3>Task Manager</h3>
+                <p>A simple web app to add and remove daily tasks using JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3>Python Automation</h3>
+                <p>Scripts written to automate basic file management tasks.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="form-message" class="hidden">Thanks for reaching out! I'll get back to you soon.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Deep Kadam. Built as an intern project.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
